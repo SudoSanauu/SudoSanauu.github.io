@@ -1,0 +1,11 @@
+#the-button button{
+	font-weight: bold;
+	font-family: "Courier New",Courier,monospace;
+	padding: 10px;
+	border: 2px solid #FF1493;
+	margin: 10px;
+}
+
+#the-button {
+	border: 1px solid #32CD32;
+}

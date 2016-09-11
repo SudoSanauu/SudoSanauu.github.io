@@ -13,6 +13,7 @@ div {
 
 div.text {
 	background-color: rgba(100, 100, 100, .75);
+	text-align: center;
 }
 
 p { 
