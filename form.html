@@ -2,35 +2,46 @@
 <html>
 <head>
 	<title>Cube Questionnaire</title>
+	<link rel="stylesheet" type="text/css" href="style/site.css">
+	<link rel="stylesheet" type="text/css" href="style/form.css">
 </head>
 <body>
+
 <form action="http://httpbin.org/post" method="post">
-<div>
-	<label>Name</label>
-	<input type="text" name="fullname">
-</div>
-<div>
-	<label>Magic Knowledge</label>
-	<select name="knowledge_level">
-		<option value="0">Never heard of it</option>
-		<option value="1">Heard of it once</option>
-		<option value="2">I know someone who plays</option>
-		<option value="3">I've played a bit</option>
-		<option value="4">I'm a big fan</option>
-	</select>
-</div>
-<div>
-	<label>Opinion on the Cube</label>
-	<select name="opinion_level">
-		<option value='0'>I have no idea</option>
-		<option value='1'>I hated it</option>
-		<option value='2'>I didn't like it</option>
-		<option value='3'>It was OK</option>
-		<option value='4'>I liked it</option>
-		<option value='5'>I loved it</option>
-	</select>
-</div>
-<button type="submit">Submit</button>
+
+	<div class="text">
+		<label>Name</label>
+		<input type="text" name="fullname">
+	</div>
+
+	<div class="text">
+		<label>Magic Knowledge</label>
+		<select name="knowledge_level">
+			<option value="0">Never heard of it</option>
+			<option value="1">Heard of it once</option>	
+			<option value="2">I know someone who plays</option>
+			<option value="3">I've played a bit</option>
+			<option value="4">I'm a big fan</option>
+		</select>
+	</div>
+
+	<div class="text">
+		<label>Opinion on the Cube</label>
+		<select name="opinion_level">
+			<option value='0'>I have no idea</option>
+			<option value='1'>I hated it</option>
+			<option value='2'>I didn't like it</option>
+			<option value='3'>It was OK</option>
+			<option value='4'>I liked it</option>
+			<option value='5'>I loved it</option>
+		</select>
+	</div>
+
+	<div id="the-button">
+		<button type="submit">Submit</button>
+	</div>
+
 </form>
+
 </body>
 </html>

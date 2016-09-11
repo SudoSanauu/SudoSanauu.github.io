@@ -1,0 +1,35 @@
+html {
+	background-image: url(black-bkgrnd.jpg);
+	background-attachment: fixed;
+}
+
+body {
+	font-family: "Helvetica";
+}
+
+div {
+	text-align: center;
+}
+
+div.text {
+	background-color: rgba(100, 100, 100, .75);
+	text-align: center;
+}
+
+p { 
+	padding: 20px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: auto;
+	text-align: center;
+}
+
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: rgb(50, 50, 250);
+}
